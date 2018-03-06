@@ -19,7 +19,7 @@ class Checkout extends Component {
             if(param[0] === 'price'){
                 price = param[1];
             } else {
-                ingredients[param[0]] = +param[1];  // conver string  to number by +param[1] from param[1]
+                ingredients[param[0]] = +param[1];  // convert string  to number by +param[1] from param[1]
             }
         }
         this.setState({ingredients:ingredients, totalPrice: price});

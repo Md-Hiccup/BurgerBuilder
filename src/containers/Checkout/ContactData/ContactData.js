@@ -17,7 +17,7 @@ class ContactData extends Component {
     };
 
     orderHandler = (event) => {
-        event.preventDefault();
+        event.preventDefault(); // to prevent the request for reloading the page
         this.setState({loading: true});
         const order= {
             ingredients: this.props.ingredients,

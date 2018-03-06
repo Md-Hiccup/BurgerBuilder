@@ -5,7 +5,7 @@ import Aux from '../Aux/Aux';
 
 const withErrorHandler = (WrappedComponent, axios) => {
     return class extends Component {
-        state= {
+        state = {
             error: null
         };
 
